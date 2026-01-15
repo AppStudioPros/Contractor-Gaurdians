@@ -47,11 +47,16 @@ export function AppShowcaseSection() {
               monitoring progress with live feeds, our app offers everything in
               one place.
             </p>
-            <p className="text-slate mb-8 leading-relaxed">
+            <p className="text-slate mb-6 leading-relaxed">
               Easily communicate with contractors, access DIY tips, and track
               every step of your project—all through a user-friendly interface
               that ensures a smooth and efficient experience for both homeowners
               and contractors.
+            </p>
+            <p className="text-slate mb-8 leading-relaxed">
+              If you are working with an insurance claim for instance, you can take 4K walkthrough 
+              videos and pictures of the damage and upload them for insurance companies along with 
+              contracts, receipts and interactions with the client during the walkthrough.
             </p>
 
             {/* App Store Buttons (Visual Only) */}
