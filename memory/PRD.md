@@ -44,13 +44,17 @@ Rebuild a WordPress website using a modern tech stack: Next.js (with App Router)
 - [x] SEO files (sitemap.ts, robots.ts)
 - [x] ESLint configuration and clean build verified
 - [x] README with deployment instructions
+- [x] **Sanity Studio with full schema definitions** (`/app/contractor-guardians-website/sanity/`)
+  - Document schemas: `siteSettings`, `navigation`, `page`, `teamMember`, `testimonial`, `pricingPlan`, `pitchDeckSlide`, `faq`, `redirect`
+  - Object schemas: `seo`, `navLink`, `footerColumn`, `socialLink`, `feature`, `step`
+  - Section schemas (page builder): `heroSection`, `featuresSection`, `stepsSection`, `testimonialsSection`, `pricingSection`, `ctaSection`, `richTextSection`, `videoSection`, `statsSection`, `cardsSection`, `formSection`
 
 ---
 
 ## Prioritized Backlog
 
 ### P0 - Critical
-- [ ] Create Sanity Studio and define content schemas (`siteSettings`, `navigation`, `page`, `hero`, `featureGrid`, `post`, `caseStudy`, `author`)
+- [x] ~~Create Sanity Studio and define content schemas~~ ✅ COMPLETED
 
 ### P1 - High Priority
 - [ ] User handover for GitHub push and Vercel deployment
