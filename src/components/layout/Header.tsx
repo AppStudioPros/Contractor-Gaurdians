@@ -45,18 +45,15 @@ export function Header() {
       <nav className="container-lg">
         <div className="flex items-center justify-between h-20">
           {/* Logo */}
-          <Link href="/" className="flex items-center gap-3 group">
+          <Link href="/" className="flex items-center group">
             <Image
               src="https://customer-assets.emergentagent.com/job_webrebuild-1/artifacts/fv63libr_CG%20logo%20no%20bg.png"
               alt="Contractor Guardians"
-              width={60}
-              height={60}
-              className="w-12 h-12 md:w-14 md:h-14 transition-transform group-hover:scale-105"
+              width={80}
+              height={80}
+              className="w-16 h-16 md:w-20 md:h-20 transition-transform group-hover:scale-105"
               priority
             />
-            <span className="hidden sm:block font-headline text-xl text-white group-hover:text-gold transition-colors">
-              CONTRACTOR GUARDIANS
-            </span>
           </Link>
 
           {/* Desktop Navigation */}
