@@ -1,0 +1,141 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --gold: 39 91% 55%;
+    --gold-hover: 36 100% 39%;
+    --guardian-black: 240 13% 4%;
+    --shield-blue: 221 83% 53%;
+  }
+
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    @apply bg-guardian-black text-white font-body antialiased;
+  }
+
+  h1, h2, h3, h4 {
+    @apply font-headline tracking-wide;
+  }
+}
+
+@layer components {
+  /* Button Variants */
+  .btn-primary {
+    @apply inline-flex items-center justify-center gap-2 px-6 py-3 bg-gold text-guardian-black font-bold rounded-full transition-all duration-300 hover:bg-gold-hover hover:shadow-lg hover:shadow-gold/25 hover:-translate-y-0.5;
+  }
+
+  .btn-secondary {
+    @apply inline-flex items-center justify-center gap-2 px-6 py-3 border-2 border-gold text-gold font-bold rounded-full transition-all duration-300 hover:bg-gold hover:text-guardian-black;
+  }
+
+  .btn-outline {
+    @apply inline-flex items-center justify-center gap-2 px-6 py-3 border-2 border-white/20 text-white font-semibold rounded-full transition-all duration-300 hover:border-gold hover:text-gold;
+  }
+
+  /* Card Styles */
+  .card {
+    @apply bg-guardian-steel border border-white/10 rounded-2xl p-6 transition-all duration-300;
+  }
+
+  .card-hover {
+    @apply hover:border-gold/30 hover:shadow-lg hover:shadow-gold/5;
+  }
+
+  /* Form Inputs */
+  .input {
+    @apply w-full px-4 py-3 bg-guardian-graphite border border-white/10 rounded-xl text-white placeholder:text-slate transition-all duration-200 focus:border-gold focus:ring-2 focus:ring-gold/20 focus:outline-none;
+  }
+
+  .input-error {
+    @apply border-danger focus:border-danger focus:ring-danger/20;
+  }
+
+  .label {
+    @apply block text-sm font-semibold text-gold mb-2;
+  }
+
+  /* Section Containers */
+  .section {
+    @apply py-16 md:py-24;
+  }
+
+  .section-dark {
+    @apply bg-guardian-black;
+  }
+
+  .section-steel {
+    @apply bg-guardian-steel;
+  }
+
+  .section-graphite {
+    @apply bg-guardian-graphite;
+  }
+
+  .container-lg {
+    @apply max-w-7xl mx-auto px-4 sm:px-6 lg:px-8;
+  }
+
+  /* Typography */
+  .section-title {
+    @apply text-3xl md:text-4xl lg:text-5xl font-headline text-gold mb-4;
+  }
+
+  .section-subtitle {
+    @apply text-lg md:text-xl text-slate max-w-2xl mx-auto;
+  }
+
+  /* Shield Decorative Element */
+  .shield-accent {
+    @apply relative;
+  }
+
+  .shield-accent::before {
+    content: '';
+    @apply absolute -z-10 opacity-5;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 120'%3E%3Cpath fill='%23F8AB20' d='M50 0 L100 20 L100 60 Q100 100 50 120 Q0 100 0 60 L0 20 Z'/%3E%3C/svg%3E");
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+
+  /* Gold Accent Line */
+  .gold-line {
+    @apply h-1 w-24 bg-gradient-to-r from-gold to-gold-hover rounded-full;
+  }
+
+  /* Blueprint Pattern Background */
+  .blueprint-bg {
+    background-image: 
+      linear-gradient(rgba(11, 11, 13, 0.97), rgba(11, 11, 13, 0.97)),
+      linear-gradient(90deg, rgba(248, 171, 32, 0.03) 1px, transparent 1px),
+      linear-gradient(rgba(248, 171, 32, 0.03) 1px, transparent 1px);
+    background-size: 100%, 40px 40px, 40px 40px;
+  }
+}
+
+@layer utilities {
+  /* Animation Delays */
+  .animation-delay-100 { animation-delay: 100ms; }
+  .animation-delay-200 { animation-delay: 200ms; }
+  .animation-delay-300 { animation-delay: 300ms; }
+  .animation-delay-400 { animation-delay: 400ms; }
+  .animation-delay-500 { animation-delay: 500ms; }
+
+  /* Text Gradient */
+  .text-gradient-gold {
+    @apply bg-gradient-to-r from-gold to-gold-hover bg-clip-text text-transparent;
+  }
+
+  /* Glow Effects */
+  .glow-gold {
+    box-shadow: 0 0 30px rgba(248, 171, 32, 0.3);
+  }
+
+  .glow-gold-sm {
+    box-shadow: 0 0 15px rgba(248, 171, 32, 0.2);
+  }
+}
