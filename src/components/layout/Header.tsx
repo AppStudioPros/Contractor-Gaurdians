@@ -42,16 +42,16 @@ export function Header() {
           : 'bg-transparent'
       )}
     >
-      <nav className="container-lg">
-        <div className="flex items-center justify-between h-20">
+      <nav className="w-full px-4 md:px-6 lg:px-8">
+        <div className="max-w-[1400px] mx-auto flex items-center justify-between h-20">
           {/* Logo */}
           <Link href="/" className="flex items-center group">
             <Image
               src="https://customer-assets.emergentagent.com/job_webrebuild-1/artifacts/fv63libr_CG%20logo%20no%20bg.png"
               alt="Contractor Guardians"
-              width={80}
-              height={80}
-              className="w-16 h-16 md:w-20 md:h-20 transition-transform group-hover:scale-105"
+              width={120}
+              height={60}
+              className="h-12 w-auto md:h-16 transition-transform group-hover:scale-105"
               priority
             />
           </Link>
