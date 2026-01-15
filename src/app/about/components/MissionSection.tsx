@@ -27,17 +27,12 @@ export function MissionSection() {
           className="max-w-4xl mx-auto"
         >
           <div className="card p-8 md:p-12">
-            <p className="text-lg text-slate leading-relaxed mb-6">
-              Contractor Guardians is a construction and technology network
-              focused on protecting homeowners, empowering contractors, and
-              strengthening communities. We connect vetted, values-driven
-              builders with mission-aligned projects—prioritizing veterans,
-              vulnerable families, and those rebuilding after hardship.
-            </p>
             <p className="text-lg text-slate leading-relaxed">
-              Using modern tools, transparent processes, and education, we keep
-              every project accountable from the first estimate to the final
-              inspection.
+              Contractor Guardians is a faith-based construction and technology network focused on protecting 
+              homeowners, empowering contractors, and strengthening communities. We connect vetted, values-driven 
+              builders with mission-aligned projects—prioritizing veterans, vulnerable families, and those rebuilding 
+              after hardship—while using modern tools, transparent processes, and education to keep every project 
+              accountable from the first estimate to the final inspection.
             </p>
           </div>
         </motion.div>

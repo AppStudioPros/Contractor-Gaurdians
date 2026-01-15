@@ -23,12 +23,11 @@ export function AboutHero() {
         >
           <div className="gold-line mx-auto mb-6" />
           <h1 className="text-4xl md:text-5xl lg:text-6xl font-headline text-gold mb-6">
-            About Contractor Guardians
+            About • Contractor Guardians
           </h1>
           <p className="text-xl text-slate leading-relaxed">
-            We're a construction network serving veterans, families, and
-            communities across America—built on trust, transparency, and
-            accountability.
+            A faith-based construction and technology network focused on protecting homeowners, 
+            empowering contractors, and strengthening communities across America.
           </p>
         </motion.div>
       </div>
