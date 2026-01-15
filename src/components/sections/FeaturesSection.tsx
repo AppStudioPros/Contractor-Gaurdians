@@ -8,44 +8,44 @@ import { Smartphone, Eye, FileText, Shield, Users, BadgeCheck } from 'lucide-rea
 const features = [
   {
     icon: Smartphone,
-    title: 'All-in-One Platform',
+    title: 'All in One App',
     description:
-      'Vetted contractors, secure contracts, milestone payments, and live monitoring—all in one app.',
+      'Contractor Guardians simplifies home improvement by combining vetted contractors, secure digital contracts, milestone payments, live progress monitoring, and DIY resources—all in one app. Whether you\'re a homeowner or a contractor, our platform ensures transparency, quality, and peace of mind every step of the way.',
     size: 'large',
   },
   {
     icon: Eye,
-    title: 'Live Transparency',
+    title: 'Transparency',
     description:
-      'Real-time camera access, photo and video updates from contractors.',
+      'Contractor Guardians offers live camera access and real-time photo and video updates from contractors, ensuring clear communication and a complete visual record of your project\'s progress.',
     size: 'small',
   },
   {
     icon: FileText,
-    title: 'Smart Contracts',
+    title: 'Digital and Smart Contracts',
     description:
-      'Digital contracts with milestone-based payments ensure accountability.',
+      'Contractor Guardians uses digital contracts and milestone-based payments to ensure alignment and accountability. Secure, signed contracts and clear milestones help prevent disputes.',
     size: 'small',
   },
   {
     icon: Shield,
     title: 'Escrow Protection',
     description:
-      'Your funds are protected until work is verified and approved.',
+      'Your funds are protected until work is verified and approved. Our escrow system gives homeowners confidence while ensuring contractors get paid on time.',
     size: 'small',
   },
   {
     icon: Users,
     title: 'Backup Crew Service',
     description:
-      'If a contractor fails to deliver, we have backup crews ready to complete your project.',
+      'If a contractor fails to deliver, we have backup crews ready to complete your project with our exclusive job guarantee.',
     size: 'small',
   },
   {
     icon: BadgeCheck,
     title: 'Verified Contractors',
     description:
-      'Every contractor is background-checked, licensed, and insured.',
+      'Every contractor is background-checked, licensed, and insured. We connect vetted, values-driven builders with mission-aligned projects.',
     size: 'large',
   },
 ];
