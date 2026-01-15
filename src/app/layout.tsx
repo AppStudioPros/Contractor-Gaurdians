@@ -55,9 +55,9 @@ export const metadata: Metadata = {
       'Contractor Guardians protects homeowners and empowers contractors with verified professionals, digital contracts, escrow payments, and project monitoring.',
     images: [
       {
-        url: '/og-image.png',
+        url: 'https://customer-assets.emergentagent.com/job_guardian-nextjs/artifacts/kuidyo5a_Untitled-1.png',
         width: 1200,
-        height: 630,
+        height: 1200,
         alt: 'Contractor Guardians',
       },
     ],
@@ -67,7 +67,7 @@ export const metadata: Metadata = {
     title: 'Contractor Guardians | Verified Contractors. Protected Projects.',
     description:
       'Contractor Guardians protects homeowners and empowers contractors with verified professionals, digital contracts, escrow payments, and project monitoring.',
-    images: ['/og-image.png'],
+    images: ['https://customer-assets.emergentagent.com/job_guardian-nextjs/artifacts/kuidyo5a_Untitled-1.png'],
   },
   robots: {
     index: true,
