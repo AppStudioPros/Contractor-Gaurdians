@@ -41,9 +41,9 @@ export function Footer() {
               <Image
                 src="https://customer-assets.emergentagent.com/job_webrebuild-1/artifacts/fv63libr_CG%20logo%20no%20bg.png"
                 alt="Contractor Guardians"
-                width={64}
-                height={64}
-                className="w-16 h-16"
+                width={96}
+                height={48}
+                className="h-12 w-auto"
               />
             </Link>
             <p className="text-slate text-sm leading-relaxed max-w-sm">
